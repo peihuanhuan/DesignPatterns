@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObserverMode/ObserverMode.iml" filepath="$PROJECT_DIR$/ObserverMode/ObserverMode.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemplateMethodPattern/TemplateMethodPattern.iml" filepath="$PROJECT_DIR$/TemplateMethodPattern/TemplateMethodPattern.iml" />
     </modules>
   </component>
 </project>
