@@ -1,0 +1,27 @@
+package IteratorDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 西式餐厅，菜单使用ArrayList存储
+ */
+public class WesternMenu {
+
+    private List<String> menuItems = new ArrayList<>();
+
+
+    public WesternMenu() {
+        menuItems.add("奶油蘑菇汤");
+        menuItems.add("凯撒沙拉");
+        menuItems.add("西班牙土豆煎饼");
+        menuItems.add("黑椒猪扒");
+        menuItems.add("金枪鱼火腿pizza");
+    }
+
+    Iterator createIterator() {
+        return new WesternMenuIterator(menuItems);
+    }
+
+
+}
