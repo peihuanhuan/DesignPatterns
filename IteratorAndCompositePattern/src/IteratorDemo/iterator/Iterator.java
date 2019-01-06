@@ -1,4 +1,4 @@
-package IteratorDemo;
+package IteratorDemo.iterator;
 
 /**
  * 迭代器接口

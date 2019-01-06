@@ -1,4 +1,7 @@
-package IteratorDemo;
+package IteratorDemo.menu;
 
-public abstract class Menu {
+import IteratorDemo.iterator.Iterator;
+
+public interface Menu {
+    Iterator createIterator();
 }

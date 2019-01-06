@@ -1,6 +1,7 @@
-package IteratorDemo;
+package IteratorDemo.iterator;
 
-import java.util.ArrayList;
+import IteratorDemo.iterator.Iterator;
+
 import java.util.List;
 
 public class WesternMenuIterator implements Iterator {

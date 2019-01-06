@@ -1,4 +1,7 @@
-package IteratorDemo;
+package IteratorDemo.menu;
+
+import IteratorDemo.iterator.Iterator;
+import IteratorDemo.iterator.WesternMenuIterator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +9,7 @@ import java.util.List;
 /**
  * 西式餐厅，菜单使用ArrayList存储
  */
-public class WesternMenu {
+public class WesternMenu implements Menu {
 
     private List<String> menuItems = new ArrayList<>();
 
@@ -19,7 +22,8 @@ public class WesternMenu {
         menuItems.add("金枪鱼火腿pizza");
     }
 
-    Iterator createIterator() {
+    @Override
+    public Iterator createIterator() {
         return new WesternMenuIterator(menuItems);
     }
 
